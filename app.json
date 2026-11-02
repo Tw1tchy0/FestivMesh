@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Festival Compass",
-    "slug": "festival-compass",
-    "scheme": "festivalcompass",
+    "name": "FestivMesh",
+    "slug": "festivmesh",
+    "scheme": "festivmesh",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,10 +10,10 @@
     "backgroundColor": "#07070b",
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.tw1tchy.festivalcompass"
+      "bundleIdentifier": "com.tw1tchy.festivmesh"
     },
     "android": {
-      "package": "com.tw1tchy.festivalcompass",
+      "package": "com.tw1tchy.festivmesh",
       "adaptiveIcon": {
         "backgroundColor": "#07070b",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -30,13 +30,13 @@
       [
         "expo-location",
         {
-          "locationWhenInUsePermission": "Festival Compass uses your location to point you toward your friends."
+          "locationWhenInUsePermission": "FestivMesh uses your location to point you toward your friends."
         }
       ],
       [
         "expo-camera",
         {
-          "cameraPermission": "Festival Compass uses the camera to scan a friend's festival QR code."
+          "cameraPermission": "FestivMesh uses the camera to scan a friend's festival QR code."
         }
       ],
       [
@@ -46,7 +46,7 @@
           "modes": [
             "central"
           ],
-          "bluetoothAlwaysPermission": "Festival Compass connects to your Meshtastic radio over Bluetooth."
+          "bluetoothAlwaysPermission": "FestivMesh connects to your Meshtastic radio over Bluetooth."
         }
       ],
       "expo-font",

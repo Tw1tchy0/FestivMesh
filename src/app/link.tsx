@@ -93,7 +93,7 @@ export default function LinkScreen() {
             <QRCode value={url} size={230} backgroundColor="#fff" color="#000" />
           </View>
           <Text style={styles.help}>
-            Friends scan this in Festival Compass (or the official Meshtastic app) to join “{festival?.name}”. It contains your
+            Friends scan this in FestivMesh (or the official Meshtastic app) to join “{festival?.name}”. It contains your
             group’s private key: only show it to your group.
           </Text>
         </View>

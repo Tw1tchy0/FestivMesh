@@ -243,6 +243,7 @@ export const useMesh = create<State & Actions>()(
       setMyLocation: (myLocation) => set({ myLocation }),
     }),
     {
+      // Storage key from the app's first name; renaming it would lose saved friends and chats.
       name: 'festival-compass',
       storage: saved.storage,
       partialize: (s): Persisted => ({ settings: s.settings, nodes: s.nodes, messages: s.messages, unread: s.unread }),

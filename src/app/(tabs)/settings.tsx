@@ -437,7 +437,7 @@ export default function SettingsScreen() {
       </Card>
 
       <Text style={styles.footer}>
-        Festival Compass · runs on Meshtastic radios. Filled dot = friend uses the app (can message, even when their phone is locked). Outlined dot =
+        FestivMesh · runs on Meshtastic radios. Filled dot = friend uses the app (can message, even when their phone is locked). Outlined dot =
         radio only (trackable). A slowly pulsing light is their last known spot.
       </Text>
     </ScrollView>
